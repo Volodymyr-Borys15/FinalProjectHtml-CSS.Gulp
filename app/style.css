@@ -1,0 +1,1191 @@
+/* @import url(fonts.css); */
+
+@font-face {
+    font-family: "GothicLeague";
+    src: url(fonts/theleagueof-league-gothic/LeagueGothic-Regular.otf);
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OpenSans/OpenSans-Italic.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    background: #d8d8d8;
+}
+
+.header {
+    width: 100%;
+    height: 847px;
+    background-image: url('images/bg.jpg');
+    position: relative;
+}
+
+.container {
+    width: 960px;
+    height: 278px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>a {
+    margin: 0 0 0 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    font-family: "GothicLeague";
+    font-size: 24px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+    text-decoration-color: #edbfff;
+}
+
+.logo {
+    margin: 68px 0 0 0;
+}
+
+.logo>h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+    font-family: "GothicLeague";
+    font-size: 48px;
+}
+
+.logo>h1>span {
+    color: #674774;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    font-family: "GothicLeague";
+    font-size: 48px;
+}
+
+.navigation {
+    margin: 73px 0 0 0;
+}
+
+.slider {
+    height: 645px;
+    width: 100%;
+}
+
+.container-one {
+    height: 400px;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overlay {
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.2);
+}
+
+.slider-text {
+    width: 50%;
+}
+
+.slider-text>h1 {
+    margin: 84px 0 0 0;
+    color: #fefefe;
+    font-family: "GothicLeague";
+    font-size: 60px;
+}
+
+.slider-text>h2 {
+    color: #edbfff;
+    font-family: "GothicLeague";
+    font-size: 30px;
+}
+
+.slider-text>p {
+    color: #d2d1d4;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.slider-image {
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+.phone {
+    width: 50%;
+    height: 100%;
+    background-image: url('images/iphone.png');
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    z-index: 20;
+}
+
+.back-phone {
+    background-image: url('images/iPhone4copy.png');
+    width: 35%;
+    height: 58%;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    z-index: 10;
+}
+
+.play {
+    background-image: url('images/Play.png');
+    width: 20%;
+    height: 19%;
+    position: absolute;
+    top: 140px;
+    right: 75px;
+    z-index: 30;
+}
+
+.container-second {
+    height: 169px;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.dot {
+    height: 17px;
+    width: 83px;
+    background-image: url('images/Shape16.png');
+    position: absolute;
+    right: 120px;
+    top: 93px;
+    z-index: 10;
+}
+
+.white-dot {
+    height: 19px;
+    width: 19px;
+    background-image: url('images/Shape5.png');
+    position: absolute;
+    z-index: 20;
+    right: 163px;
+    top: 92px;
+}
+
+.first-content {
+    width: 100%;
+    height: 342px;
+    background-image: url('images/Layer23.jpg');
+}
+
+.container-two {
+    height: 342px;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-block {
+    width: 290px;
+    height: 342px;
+    padding: 71px 0;
+    position: relative;
+}
+
+.first-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url('images/Layer34.png');
+    position: absolute;
+    left: 8px;
+    top: 85px;
+}
+
+.first-block>p {
+    display: block;
+    position: absolute;
+    left: 62px;
+    top: 120px;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+    color: rgb(255, 255, 255);
+}
+
+.first-block>h3 {
+    display: block;
+    position: absolute;
+    left: 62px;
+    top: 85px;
+    color: rgb(255, 255, 255);
+    line-height: 0.8;
+    text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+    font-family: "GothicLeague";
+    font-size: 30px;
+}
+
+.first-block>button {
+    display: block;
+    position: absolute;
+    right: -5px;
+    bottom: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+    background: none;
+    border: none;
+    font-family: "GothicLeague";
+    font-size: 18px;
+}
+
+.second-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url('images/Layer35.png');
+    position: absolute;
+    left: 8px;
+    top: 85px;
+}
+
+.third-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url('images/Layer36.png');
+    position: absolute;
+    left: 8px;
+    top: 85px;
+}
+
+.line {
+    background-image: url("images/Layer25.png");
+    width: 100%;
+    height: 1px;
+}
+
+.first-block>button:hover {
+    background: cadetblue;
+}
+
+.second-content {
+    width: 100%;
+    height: 607px;
+    background: #f9f9f9;
+}
+
+.container-three {
+    height: 487px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.two-blocks {
+    width: 100%;
+    height: 387px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-one {
+    width: 44%;
+    height: 272px;
+    background: white;
+    position: relative;
+}
+
+.icon-first {
+    background-image: url('images/Layer82.png');
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -25px;
+    top: 20px;
+}
+
+.icon-second {
+    background-image: url('images/Layer80.png');
+    width: 85px;
+    height: 20px;
+    position: absolute;
+    bottom: -23px;
+    left: 172px;
+}
+
+.icon-third {
+    background-image: url('images/Shape5copy.png');
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    bottom: -20px;
+    left: 174px;
+}
+
+.block-one>p {
+    display: block;
+    position: absolute;
+    top: 62px;
+    left: 40px;
+    color: #454545;
+    font-family: "Open Sans";
+}
+
+.block-one>h3 {
+    position: absolute;
+    left: 40px;
+    top: 32px;
+    color: #454545;
+    font-family: "GothicLeague";
+    font-size: 30px;
+}
+
+.block-one>h3>span {
+    color: #edbfff;
+    font-family: "GothicLeague";
+    font-size: 30px;
+}
+
+.block-two {
+    width: 44%;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.block-two>h3 {
+    color: #454545;
+    margin: 32px 0 20px 0;
+    font-family: "GothicLeague";
+    font-size: 30px;
+}
+
+.wrapper-group {
+    width: 100%;
+    height: 201px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.group-one {
+    width: 100%;
+    height: 49px;
+    position: relative;
+}
+
+.group-one>h4 {
+    position: absolute;
+    top: 0;
+    left: 69px;
+    margin: 2px 0 0 0;
+    font-family: "GothicLeague";
+    font-size: 24px;
+}
+
+.group-one>p {
+    position: absolute;
+    left: 69px;
+    top: 20px;
+    margin: 10px 0 0 0;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.group-two {
+    width: 100%;
+    height: 49px;
+    position: relative;
+}
+
+.group-two>h4 {
+    position: absolute;
+    top: 0;
+    left: 69px;
+    margin: 2px 0 0 0;
+    font-family: "GothicLeague";
+    font-size: 24px;
+}
+
+.group-two>p {
+    position: absolute;
+    left: 69px;
+    top: 20px;
+    margin: 10px 0 0 0;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.group-three {
+    width: 100%;
+    height: 49px;
+    position: relative;
+}
+
+.group-three>h4 {
+    position: absolute;
+    top: 0;
+    left: 69px;
+    margin: 2px 0 0 0;
+    font-family: "GothicLeague";
+    font-size: 24px;
+
+}
+
+.group-three>p {
+    position: absolute;
+    left: 69px;
+    top: 20px;
+    margin: 10px 0 0 0;
+    font-family: "Open Sans";
+}
+
+.block-two>button {
+    height: 15px;
+    width: 102px;
+    color: rgb(69, 69, 69);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    font-size: 10px;
+    position: absolute;
+    bottom: -40px;
+    right: 5px;
+    background: none;
+    border: none;
+    font-family: "GothicLeague";
+    font-size: 18px;
+}
+
+.picture {
+    height: 49px;
+    width: 49px;
+}
+
+.first-p {
+    background-image: url('images/Layer83.png');
+    position: absolute;
+}
+
+.second-p {
+    background-image: url('images/Layer83copy.png');
+}
+
+.third-p {
+    background-image: url('images/Layer83copy2.png');
+}
+
+.logo-brand {
+    width: 100%;
+    height: 120px;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-logos {
+    width: 775px;
+    height: 65px;
+    background-image: url('images/logos.png');
+}
+
+.footer {
+    height: 512px;
+    width: 100%;
+    background-image: url('images/Layer37.jpg');
+}
+
+.container-four {
+    height: 512px;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one-of {
+    height: 215px;
+    width: 299px;
+}
+
+.one-of>h2 {
+    color: rgb(69, 69, 69);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    margin: 0 0 23px 0;
+    font-family: "GothicLeague";
+    font-size: 48px;
+}
+
+.one-of>p>i {
+    color: #b9b9b9;
+}
+
+.one-of>p {
+    margin: 27px 0 18px 0;
+    color: #9c9c9c;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.one-of>h2>span {
+    color: rgb(185, 185, 185);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+.two-of {
+    height: 215px;
+    width: 299px;
+}
+
+.two-of>h4 {
+    margin: 0 0 22px 0;
+    color: #454545;
+    font-family: "GothicLeague";
+    font-size: 30px;
+}
+
+.two-of>p {
+    color: #9c9c9c;
+    line-height: 1.3;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.three-of {
+    height: 215px;
+    width: 299px;
+}
+
+.three-of>h4 {
+    margin: 0 0 22px 0;
+    color: #454545;
+    font-family: "GothicLeague";
+    font-size: 30px;
+}
+
+.three-of>p {
+    color: #9c9c9c;
+    line-height: 1.3;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.purple-line {
+    width: 100%;
+    height: 114px;
+    background-image: url('images/bgcopy.jpg');
+}
+
+.container-five {
+    height: 114px;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav>a {
+    text-decoration: none;
+    margin: 0 45px 0 0;
+    color: rgb(255, 255, 255);
+    line-height: 1.686;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    font-family: "GothicLeague";
+    font-size: 20px;
+}
+
+.rights {
+    font-size: 12px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .container,
+    .container-one,
+    .container-second,
+    .container-two,
+    .container-three,
+    .container-four,
+    .container-five {
+        width: 768px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    nav>a {
+        margin: 0 40px 0 0;
+    }
+
+    .navigation {
+        margin: 20px 0 0 0;
+    }
+
+    .slider-text {
+        width: 45%;
+    }
+
+    .container-one {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .slider-image {
+        width: 50%;
+    }
+
+    .slider-text>h2 {
+        font-size: 14px;
+    }
+
+    .first-block {
+        width: 230px;
+        height: 370px;
+    }
+
+    .block-one,
+    .block-two {
+        height: 292px;
+    }
+
+    .one-of,
+    .two-of,
+    .three-of {
+        width: 230px;
+    }
+
+    .footer-nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .container-five {
+        display: block;
+    }
+
+    .footer-nav>a {
+        margin: 50px 20px 0 0;
+    }
+
+    .rights {
+        float: right;
+    }
+    .first-block>button{
+        bottom: 50px;
+    }
+    .first-block>h3{
+        top: 55px;
+    }
+    .first-icon,.second-icon,.third-icon{
+        top: 55px;
+    }
+    .slider-text>h2 {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .container,
+    .container-one,
+    .container-second,
+    .container-two,
+    .container-three,
+    .container-four,
+    .container-five {
+        width: 480px;
+    }
+
+    .header {
+        height: 548px;
+    }
+
+    .container {
+        height: 204px;
+    }
+
+    .slider {
+        height: 246px;
+    }
+
+    .overlay {
+        height: 246px;
+    }
+
+    .container-one {
+        height: 246px;
+    }
+
+    .slider-text>p {
+        display: none;
+    }
+
+    .container-second {
+        height: 100px;
+    }
+
+    .dot {
+        left: 200px;
+        top: 20px;
+    }
+
+    .white-dot {
+        left: 199px;
+        top: 20px;
+    }
+
+    .first-content {
+        height: 598px;
+        background-image: url("images/Layer 4 copy 2.png");
+    }
+
+    .container-two {
+        height: 598px;
+        display: flex;
+        flex-direction: column;
+        justify-content: inherit;
+    }
+
+    .first-block {
+        width: 424px;
+        height: 132px;
+        margin: 0 0 15px 0;
+    }
+
+    .first-block>button {
+        bottom: -70px;
+    }
+
+    .second-content {
+        height: 1020px;
+    }
+
+    .container-three {
+        height: 1020px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .two-blocks {
+        display: flex;
+        justify-content: inherit;
+        flex-direction: column;
+        width: 100%;
+        height: 720px;
+    }
+
+    .block-one {
+        height: 292px;
+        width: 412px;
+        margin: 0 auto;
+    }
+
+    .block-two {
+        height: 270px;
+        width: 412px;
+        margin: 0 auto;
+    }
+
+    .logo-brand {
+        width: 390px;
+        height: 162px;
+        background: #f9f9f9;
+        display: flex;
+        flex-direction: column;
+        justify-content: inherit;
+        align-items: start;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .image-logos {
+        width: 350px;
+        height: 65px;
+        margin: 10px auto;
+    }
+
+    .image-logos-two {
+        width: 370px;
+        height: 65px;
+        margin: 0 auto;
+    }
+
+    .rest {
+        background-image: url("images/logos.png");
+        background-position: -261px 0;
+    }
+
+    .footer {
+        height: 672px;
+
+    }
+
+    .container-four {
+        height: 672px;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .one-of,
+    .two-of,
+    .three-of {
+        height: 128px;
+        width: 440px;
+    }
+
+    .purple-line {
+        height: 201px;
+        background-image: url("images/bg copy.png");
+    }
+
+    .container-five {
+        height: 201px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .footer-nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0 0 0;
+    }
+
+    .footer-nav>a {
+        margin: 0 10px 0 0;
+        font-size: 13px;
+    }
+
+    .rights {
+        margin: -60px 0 0 0;
+    }
+
+    .slider-image {
+        width: 50%;
+    }
+
+    .slider-text {
+        width: 50%;
+    }
+
+    .phone {
+        width: 54%;
+        background-size: 100%;
+    }
+
+    .back-phone {
+        width: 40%;
+        height: 80%;
+        background-size: 100%;
+        top: 42px;
+        left: 20px;
+    }
+
+    .play {
+        width: 21%;
+        height: 20%;
+        background-size: 100%;
+        top: 90px;
+        right: 60px;
+    }
+
+    .slider-text>h1 {
+        font-size: 28px;
+    }
+
+    .slider-text>h2 {
+        font-size: 10px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    nav>a {
+        margin: 0 0 0 0;
+    }
+
+    .navigation {
+        margin: 20px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+        width: 244px;
+        height: 47px;
+        background: #3e3146;
+        border-radius: 5px;
+        position: relative;
+        z-index: 100;
+    }
+    a:first-child{
+        border-radius: 5px;
+    }
+    a:first-child:hover{
+        border-radius: 5px 5px 0 0;
+    }
+    
+    a:last-child{
+        border-radius: 0 0 5px 5px;
+    }
+
+    .navigation>a {
+        height: 47px;
+        line-height: 46px;
+        border-bottom: 2px solid #36283e;
+        background: #3e3146;
+    }
+
+    .navigation>a:hover {
+        border-bottom: 2px solid #edbfff;
+        cursor: pointer;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .navigation:hover .hide {
+        display: block;
+    }
+
+    .first-block>button {
+        bottom: -70px;
+        right: -30px;
+    }
+
+    .block-two>button {
+        bottom: -40px;
+        right: -40px;
+    }
+    .slider-text>h2 {
+        font-size: 16px;
+    }
+    .first-block {
+        width: 424px;
+        height: 132px;
+        margin: 15px 0 15px 0;
+    }
+    .one-of, .two-of, .three-of {
+        height: 128px;
+        width: 440px;
+        margin: -65px 0 0 0;
+    }
+    .footer-nav>a {
+        font-size: 16px;
+    }
+
+}
+/* 
+here */
+@media screen and (max-width:510px) {
+
+
+    .container,
+    .container-one,
+    .container-second,
+    .container-two,
+    .container-three,
+    .container-four,
+    .container-five {
+        width: 320px;
+    }
+
+    .header {
+        height: 516px;
+    }
+
+    .header>h1 {
+        font-size: 40px;
+    }
+
+    .navigation {
+        border: none;
+        background: none;
+    }
+
+    .navigation>a {
+        font-size: 22px;
+        border-bottom: none;
+        background: none;
+        text-decoration: underline  #edbfff;
+    }
+
+    .overlay {
+        background: none;
+        opacity: 1;
+    }
+
+    .slider-image {
+        display: none;
+    }
+
+    .navigation>a:hover {
+        cursor: pointer;
+    }
+    .navigation:hover a{
+        background: #3e3146;
+    }
+
+    .slider-text {
+        width: 100%;
+    }
+
+    .slider-text>h1,
+    .slider-text>h2 {
+        text-align: center;
+    }
+
+    .slider-text>h1 {
+        font-size: 30px;
+    }
+
+    .container-second {
+        height: 17px;
+        margin: 0 auto;
+    }
+
+    .dot {
+        left: 130px;
+        top: 0;
+    }
+
+    .white-dot {
+        left: 130px;
+        top: 0;
+    }
+
+    .first-content {
+        height: 600px;
+    }
+
+    .first-block {
+        width: 100%;
+        margin: -40px 0 80px 0;
+    }
+
+    .first-block>button {
+        bottom: -90px;
+    }
+
+    .container-two {
+        justify-content: start;
+    }
+
+    .second-content {
+        height: 1210px;
+    }
+
+    .block-one,
+    .block-two {
+        width: 100%;
+    }
+
+    .icon-second {
+        left: 135px;
+    }
+
+    .icon-third {
+        left: 160px;
+    }
+
+    .block-two {
+        margin: 30px auto;
+    }
+
+    .container-three {
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .logo-brand {
+        height: 250px;
+        width: 100%;
+    }
+
+    .image-logos-three {
+        width: 254px;
+        height: 65px;
+        margin: 0 auto;
+    }
+
+    .image-logos,
+    .image-logos-two {
+        width: 220px;
+    }
+
+    .image-logos {
+        height: 65px;
+    }
+
+    .another {
+        background-image: url("images/logos.png");
+        background-position: -521px 0;
+    }
+
+    .container-four,
+    .footer-nav {
+        display: none;
+    }
+
+    .footer,
+    .purple-line {
+        height: 200px;
+    }
+
+    .rights>p {
+        margin: -50px 0 0 0;
+    }
+
+    .block-two>button {
+        right: -30px;
+        bottom: -50px;
+    }
+
+    .first-block>button {
+        bottom: -90px;
+        right: -30px;
+    }
+    .first-block>h3 {
+        top: 85px;
+    }
+    .first-icon,.second-icon,.third-icon{
+        top: 85px;
+    }
+    .first-block>button {
+        bottom: -110px;
+    }
+    .block-one>p{
+        top: 72px;
+    }
+    .group-one,.group-two,.group-three{
+        margin: 15px 0 0 0;
+    }
+}
+
+
+  
+    
